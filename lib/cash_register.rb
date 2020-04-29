@@ -36,9 +36,7 @@ class CashRegister
   end
   
   def void_last_transaction
-    
     return 0.0 if self.items.empty?
-
     self.total = self.previous_total
   end
   
