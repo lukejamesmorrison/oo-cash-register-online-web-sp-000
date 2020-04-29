@@ -6,10 +6,11 @@ class CashRegister
   
   @last_item = nil
   @previous_total = 0
-  @items = []
+  
   
   def initialize(discount = 0)
     @total = 0
+    @items = []
     @discount = discount
   end
   
