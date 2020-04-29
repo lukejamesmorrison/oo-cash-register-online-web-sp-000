@@ -28,8 +28,6 @@ class CashRegister
   def apply_discount
     
     return "There is no discount to apply." if self.discount === 0
-      
-    end
     
     discount = (self.discount.to_f / 100) #In percent
     self.total = self.total * (1 - discount)
