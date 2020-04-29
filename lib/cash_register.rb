@@ -7,7 +7,6 @@ class CashRegister
   @last_item = nil
   @previous_total = 0
   
-  
   def initialize(discount = 0)
     @total = 0
     @items = []
